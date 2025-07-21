@@ -1,0 +1,15 @@
+@use '@/styles/color' as *;
+
+$padding-inpt: 20px;
+
+.inpt-txt {
+	padding: $padding-inpt;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	background-color: $color-3;
+	transition: border-color 0.25s;
+	width: calc(100% - $padding-inpt - $padding-inpt);
+	&:disabled {
+		background-color: rgb(180, 180, 180);
+	}
+}

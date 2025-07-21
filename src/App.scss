@@ -1,0 +1,33 @@
+@use '@/styles/color' as *;
+@use '@/styles/font' as *;
+
+#root {
+	margin: 0;
+	padding: 0;
+	color: $color-1;
+	background-color: $color-2;
+	min-width: 100vw;
+	min-height: 100vh;
+	@include text-1();
+	.app {
+		max-width: 90vw;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding-top: 20px;
+		.form-container {
+			border-bottom: 1px solid black;
+			h1 {
+				margin-bottom: 15px;
+			}
+
+			form {
+				padding-bottom: 20px;
+				input {
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}
