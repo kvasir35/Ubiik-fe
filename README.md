@@ -14,7 +14,7 @@ Small React Front-end to simulate message send to different services
 1. **Clone and setup**
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/kvasir35/Ubiik-fe.git
 cd ubiik-frontend
 npm install
 ```
@@ -60,4 +60,4 @@ MIT License
 
 ## Related Repositories
 
--   **Backend**: [ubiik-services](https://github.com//kolo-ai-backend)
+-   **Backend**: [ubiik-services](https://github.com/kvasir35/Ubiik-services)
